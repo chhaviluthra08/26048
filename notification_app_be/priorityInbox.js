@@ -69,7 +69,7 @@ async function main() {
   console.log("=== Campus Notification Platform — Stage 1: Priority Inbox ===\n");
 
   try {
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJjaGhhdmkuMjYwNDhAZ2duaW5kaWEuZHJvbmFjaGFyeWEuaW5mbyIsImV4cCI6MTc3Nzg3MzM3OSwiaWF0IjoxNzc3ODcyNDc5LCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiNGQxODQxMmMtNTNiNS00NjI4LTk5MGEtYjViNmU4OTQyYTUyIiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoiY2hoYXZpIGx1dGhyYSIsInN1YiI6IjAyNjM3ODlkLWVmMjctNDYxYy1hMTQ3LTZlMjMwNDlmYWMxZCJ9LCJlbWFpbCI6ImNoaGF2aS4yNjA0OEBnZ25pbmRpYS5kcm9uYWNoYXJ5YS5pbmZvIiwibmFtZSI6ImNoaGF2aSBsdXRocmEiLCJyb2xsTm8iOiIyNjA0OCIsImFjY2Vzc0NvZGUiOiJ1a3NkV1QiLCJjbGllbnRJRCI6IjAyNjM3ODlkLWVmMjctNDYxYy1hMTQ3LTZlMjMwNDlmYWMxZCIsImNsaWVudFNlY3JldCI6IkZ2eE1Bck5UUVl2Tm5USkoifQ.F7SlHR4lENPVlZiFdgoDHZdPOD57Xky0TQHA2AjYfoI";
+    const token = "Your_Bearer_Token";
     const top10 = await getTopNPriorityNotifications(token, 10);
 
     console.log("\n=== Top 10 Priority Notifications ===\n");
